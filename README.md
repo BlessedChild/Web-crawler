@@ -1,5 +1,6 @@
 # Web-crawler
 
+``` py
 #!usr/bin/python
 # -*- coding: utf-8 -*-
 import requests
@@ -18,3 +19,4 @@ page_date = bs.find(attrs={"name": "PubDate"})['content']
 print("文章发布的时间是：")
 print(page_date)
 print("数据已经成功记录！")
+```
